@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: config-dev
+  datasource:
+    dbcp2:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 12345678
+    url: jdbc:mysql://localhost:3307/computador_db
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
